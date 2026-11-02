@@ -1,0 +1,24 @@
+workshop:
+  title: "Build AI Agents with Google ADK & Python"
+  audience: "Python developers, livello intermedio"
+  participants: 25
+  format: "in-person"
+  duration_minutes_gross: 210
+  breaks_minutes: 30
+  language: "it"
+  outcomes:
+    - "Creare ed eseguire un single-agent ADK in Python"
+    - "Integrare e testare un function tool"
+    - "Misurare qualita e sicurezza con casi di valutazione"
+  prerequisites:
+    - "Python >=3.10"
+    - "Git e ambiente virtuale Python"
+    - "Accesso a Gemini API abilitato oppure demo fallback"
+  constraints:
+    use_real_customer_data: false
+    api_budget_eur: "da concordare"
+    offline_fallback_required: true
+  success_criteria:
+    - "Almeno 80% partecipanti esegue lab 1"
+  assumptions:
+    - "Credenziali e rete saranno validate nel preflight"

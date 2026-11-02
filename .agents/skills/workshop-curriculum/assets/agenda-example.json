@@ -1,0 +1,15 @@
+{
+  "title": "AI Agents con Google ADK e Python",
+  "blocks": [
+    {"title": "Perche agenti e perche ADK", "kind": "theory", "minutes": 20},
+    {"title": "Primo agent e tool", "kind": "demo", "minutes": 20},
+    {"title": "Lab 1: tool deterministico", "kind": "lab", "minutes": 40},
+    {"title": "Debrief e debugging", "kind": "review", "minutes": 10},
+    {"title": "Pausa", "kind": "break", "minutes": 15},
+    {"title": "Sessions e multi-agent", "kind": "theory", "minutes": 20},
+    {"title": "Lab 2: miglioramento agent", "kind": "lab", "minutes": 45},
+    {"title": "Evaluation e safety", "kind": "demo", "minutes": 20},
+    {"title": "Lab 3: casi di test", "kind": "lab", "minutes": 15},
+    {"title": "Q&A e prossimi passi", "kind": "qa", "minutes": 5}
+  ]
+}
