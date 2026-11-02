@@ -1,4 +1,4 @@
-"""Component 2 & Harness: Google ADK Agent initialization and Model Provider resolution."""
+"""Component 2 & 4: Google ADK Agent with Deterministic Function Tools."""
 from __future__ import annotations
 
 import os
@@ -17,6 +17,8 @@ except ImportError:
 
 from .config import HarnessConfig
 from .context import ContextBuilder
+from .policy_gate import PolicyGate, PolicyGateDecision, PolicyGateResult
+from .tools import calculate_depreciated_refund, generate_wms_return_label
 
 
 def get_agent_model(config: Optional[HarnessConfig] = None) -> str:
@@ -35,7 +37,5 @@ root_agent = Agent(
     model=os.getenv("ADK_MODEL", get_agent_model(_config)),
     description="Agente autonomo per la gestione resi, rimborsi d'eccezione e logistica inversa fashion.",
     instruction=_context_builder.build_system_instruction(),
-    tools=[],
+    tools=[calculate_depreciated_refund, generate_wms_return_label],
 )
-
-from .policy_gate import PolicyGate, PolicyGateDecision, PolicyGateResult
