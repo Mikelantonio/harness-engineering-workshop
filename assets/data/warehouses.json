@@ -1,0 +1,29 @@
+{
+  "authorized_warehouses": [
+    {
+      "code": "WMS-MIL-01",
+      "name": "Milano Fashion Hub Sud Europa",
+      "country": "IT",
+      "specialization": ["leather", "shoes", "bags", "coats"]
+    },
+    {
+      "code": "WMS-PAR-04",
+      "name": "Paris Luxury Return Center",
+      "country": "FR",
+      "specialization": ["luxury", "haute_couture", "evening_wear"]
+    },
+    {
+      "code": "WMS-FRA-02",
+      "name": "Frankfurt Central Logistics & EFTA",
+      "country": "DE",
+      "specialization": ["knitwear", "denim", "sportswear", "accessories"]
+    },
+    {
+      "code": "WMS-LON-03",
+      "name": "London Cross-Border UK Hub",
+      "country": "GB",
+      "specialization": ["all_uk_returns"]
+    }
+  ]
+}
+

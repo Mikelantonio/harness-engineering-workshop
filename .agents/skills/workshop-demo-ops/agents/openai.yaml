@@ -1,0 +1,3 @@
+interface:
+  display_name: "Workshop Demo Operations"
+  short_description: "Prepare reliable demos and offline fallback."
