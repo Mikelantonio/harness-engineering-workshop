@@ -37,6 +37,11 @@ env/
 .coverage
 htmlcov/
 
+# Google ADK Local State
+.adk/
+*.adk
+
+
 # IDE & OS
 .DS_Store
 .idea/
